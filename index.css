@@ -1,85 +1,88 @@
-.Name{
-    font-style: italic;
-    margin-left: 30px;
+.Name {
+  font-style: italic;
+  margin-left: 30px;
 }
-.Topleft{
-    background-color: black;
-    color:white;
-    
+.Topleft {
+  background-color: black;
+  color: white;
 }
-.Subdiv{
-    width:80vw;
-    height:100%;
-    background-color: antiquewhite;
-    background-image: url(https://images.unsplash.com/photo-1560170412-0f7df0eb0fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlJTIwZXh0ZXJpb3J8ZW58MHx8MHx8&w=1000&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 150px;
-   
+.Subdiv {
+  width: 80vw;
+  height: 100%;
+  background-color: antiquewhite;
+  background-image: url(https://images.unsplash.com/photo-1560170412-0f7df0eb0fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlJTIwZXh0ZXJpb3J8ZW58MHx8MHx8&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5%;
+  margin-left: 5%;
 }
-.Loginname{
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color:red;
-    text-align: center;
-    
+.Loginname {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: red;
+  text-align: center;
 }
-.Maindiv{
-    display: flex;
+.Maindiv {
+  display: flex;
 }
 
-div{
-    margin-top: 5px;
+div {
+  margin-top: 5px;
 }
-input{
-    border:2px solid gray;
-    border-radius: 10px;
+input {
+  border: 2px solid gray;
+  border-radius: 10px;
 }
-button{
-    margin-left: 450px;
-    width: 100px;
-    border: 2px solid blue;
-    color: aliceblue;
-    background-color: brown;
-    border-radius: 10px;
+textarea {
+  width: 90%;
 }
-button:hover{
-    background-color: blue;
-    color:white
+button {
+  margin-left: 40%;
+  width: 100px;
+  border: 2px solid blue;
+  color: aliceblue;
+  background-color: brown;
+  border-radius: 10%;
 }
-div{
-    margin-top: 10px;
+button:hover {
+  background-color: blue;
+  color: white;
 }
-input:focus{
-    background-color: yellow;
+div {
+  margin-top: 10px;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    color: white;
-    justify-content: flex-end;
+input:focus {
+  background-color: yellow;
 }
-li{
-    margin-right: 15px;
-    margin-top: 10px;
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: flex-end;
 }
-body{
-    background-color: black;
+li {
+  margin-right: 15px;
+  margin-top: 10px;
 }
-label{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.23);
-    font-weight: 500;
-
+body {
+  background-color: black;
 }
-h5{
-    color: red;
-    display: inline-block;
-    background-color:rgba(0, 0, 0, 0.23); ;
+label {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.23);
+  font-weight: 500;
 }
-sup{
-    color: red;
-    background-color:rgba(0, 0, 0, 0.23);
-    font-size: larger;
+h5 {
+  color: red;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.23);
+}
+sup {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.23);
+  font-size: larger;
+}
+#pic {
+  width: 80%;
 }
